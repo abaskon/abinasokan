@@ -1,16 +1,3 @@
-"""
-A Python script defining a class that represents a double pendulum object and
-calculates its trajectory over a given time with a given time delta, and then
-animates this using matplotlib.
-"""
-
-# note from Izaak van Dongen: This was originally found at
-# https://matplotlib.org/examples/animation/double_pendulum_animated.html and
-# was then adapted to be able to draw multiple pendulums, and the paths each
-# pendulum takes.
-
-# Double pendulum formula translated from the C code at
-# http://www.physics.usyd.edu.au/~wheat/dpend_html/solve_dpend.c
 
 import argparse
 import datetime
